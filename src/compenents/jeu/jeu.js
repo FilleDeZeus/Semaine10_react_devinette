@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './public/css/jeu.css'
+
 // creation du nombre aleatoire en 1-100
 const aleaNombre = Math.floor(Math.random() * 100) + 1;
 let tentative =0;
@@ -33,6 +34,7 @@ const Submit = (event) => {
 tentative++;
 console.log(tentative);
 }
+//fonction pour recommencer une partie
 const Reset = () => {
     setDevine("");
     setMessage("");
