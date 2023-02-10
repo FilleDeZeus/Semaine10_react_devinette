@@ -1,0 +1,27 @@
+.ensemble{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: 700;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    border-radius: 5px;
+    height: 6vh;
+}
+.bouton{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3%;
+   
+}
+.bouton:hover{
+    
+    background-color: #00ffd0 ;
+}
